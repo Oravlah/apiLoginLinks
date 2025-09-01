@@ -141,3 +141,8 @@ AUTH_USER_MODEL = 'users.User'
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+
+FORCE_SCRIPT_NAME = '/p8080'
+STATIC_URL = '/p8080/static/'
